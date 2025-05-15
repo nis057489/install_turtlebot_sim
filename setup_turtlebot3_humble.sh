@@ -77,16 +77,6 @@ print_section "Building TurtleBot3 workspace"
 cd ${WORKSPACE_DIR}
 colcon build --symlink-install
 
-# Add workspace to bashrc if not already there
-print_section "Updating environment"
-SETUP_LINE="source ${WORKSPACE_DIR}/install/setup.bash"
-if ! grep -q "$SETUP_LINE" ~/.bashrc; then
-    echo "$SETUP_LINE" >>~/.bashrc
-    echo "Added workspace to ~/.bashrc"
-else
-    echo "Workspace already in ~/.bashrc"
-fi
-
 # Set TurtleBot3 model
 if ! grep -q "TURTLEBOT3_MODEL" ~/.bashrc.d/ros2.sh; then
     echo 'export TURTLEBOT3_MODEL=burger' >>~/.bashrc
