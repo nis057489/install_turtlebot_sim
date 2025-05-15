@@ -23,7 +23,7 @@ fi
 ```
 
 ## Create a Container for your TurtleBot simulator
-Create a Turtlebot3 container. We'll use ROS2 Humbel, but if you're viewing this later consider using one of the official ROS images found here: https://hub.docker.com/r/osrf/ros/tags
+Create a Turtlebot3 container. We'll use ROS2 Humble, but if you're viewing this later consider using one of the official ROS images found here: https://hub.docker.com/r/osrf/ros/tags
 
 ```bash
 distrobox create my_humble_turtlebot_container -i osrf/ros:humble-desktop-full
