@@ -1,4 +1,4 @@
-# install_turtlebot_sim
+# TurtleBot3 Simulator in a portable Distrobox
 Script to install TurtleBot3 Simulation on ROS2 Humble
 
 Create a file in `~/.bashrc.d/ros2.sh` with the following contents. (You may need to create the ~/.bashrc.d directory: `mkdir ~/.bashrc.d/ros2.sh`
