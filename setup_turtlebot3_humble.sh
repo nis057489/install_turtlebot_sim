@@ -77,15 +77,6 @@ print_section "Building TurtleBot3 workspace"
 cd ${WORKSPACE_DIR}
 colcon build --symlink-install
 
-# Set TurtleBot3 model
-if ! grep -q "TURTLEBOT3_MODEL" ~/.bashrc.d/ros2.sh; then
-    echo 'export TURTLEBOT3_MODEL=burger' >>~/.bashrc
-    echo "Set default TurtleBot3 model to burger"
-fi
-
-# Source the workspace
-source ${WORKSPACE_DIR}/install/setup.bash
-
 print_section "Installation Complete"
 echo -e "\033[1;32mTurtleBot3 has been installed successfully!\033[0m"
 echo "To use in new terminal sessions, either:"
