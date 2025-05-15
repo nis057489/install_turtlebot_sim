@@ -22,6 +22,7 @@ if [[ -n "$CONTAINER_ID" ]]; then
 fi
 ```
 
+## Create a Container for your TurtleBot simulator
 Create a Turtlebot3 container using one of the official ROS images found here: https://hub.docker.com/r/osrf/ros/tags
 
 ```bash
