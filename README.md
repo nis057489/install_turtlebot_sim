@@ -25,7 +25,7 @@ fi
 ```
 
 ## Modify your `~/.bashrc`
-While there are tons of online articles asking us to mangle our `~/.bashrc` files, actually it's best practice to keep your default `~/.bashrc` file as stock as possible to prevent any issues during sytem upgrades. We'll add all our customisations inside a separate directory, and tell our `~/.bashrc` to load our customisations from that.
+While there are tons of online articles asking us to mangle our `~/.bashrc` files, actually it's best practice to keep your default `~/.bashrc` file as stock as possible to prevent any issues during sytem upgrades. We'll add all our customisations (like we just made in `ros2.sh`) to a separate directory, and tell our `~/.bashrc` to load our customisations from there.
 
 Some distributions already include this, so check first, and add this to the end of your `~/.bashrc` file if it is not already there. (Just open it in a text editor and paste that in).
 
