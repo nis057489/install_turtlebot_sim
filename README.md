@@ -30,7 +30,7 @@ distrobox create my_humble_turtlebot_container -i osrf/ros:humble-desktop-full
 ```
 
 ### About Distrobox
-If the amazing `distrobox` is not installed, just install it with your package manager, e.g. `sudo apt install -y distrobox`. [Distrobox](https://github.com/89luca89/distrobox) is a script that highly integrates containers (backed by Docker or Podman runtimes) so that you get all the benefits of walling off volatile parts of your system while maintaining the interactivity of a natively installed app. It's super uselful! The `-i` flag lets you use any container image, but there are default ones available too, check the docs!
+If the amazing `distrobox` is not installed, just install it with your package manager, e.g. `sudo apt install -y distrobox`. [Distrobox](https://github.com/89luca89/distrobox) is a script that highly integrates containers (backed by Docker or Podman runtimes) so that you get all the benefits of walling off volatile parts of your system while maintaining the interactivity of a natively installed app. It's super useful! The `-i` flag lets you use any container image, but there are default ones available too, check the docs!
 
 ## Enter Turtlebot Container
 ```bash
