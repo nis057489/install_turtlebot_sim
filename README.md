@@ -19,7 +19,7 @@ if [[ -n "$CONTAINER_ID" ]]; then
     export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models
     export TURTLEBOT3_MODEL=waffle_pi
 
-    # Needed to run Gazebo
+    # Gazebo Setup
     source /usr/share/gazebo/setup.sh
 fi
 ```
