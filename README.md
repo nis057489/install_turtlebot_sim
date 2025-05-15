@@ -5,7 +5,9 @@ Create a file in `~/.bashrc.d/ros2.sh` with the following contents. (You may nee
 
 ## Set up the ROS/Turtlebot sourcing script
 ```bash
-# This will only run if you opened your shell in a container. I usually use one of the official OSRF ROS containers.
+# This will only run if you opened your shell in a container.
+# It will run in any container, but I usually use one of the official OSRF ROS containers which has ROS installed.
+# If ROS is not installed this script doesn't really affect anything.
 if [[ -n "$CONTAINER_ID" ]]; then
     # ROS2 setup
     source /opt/ros/$ROS_DISTRO/setup.bash
