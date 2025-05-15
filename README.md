@@ -14,13 +14,13 @@ if [[ -n "$CONTAINER_ID" ]]; then
 
     #Turtlebot3 simulation setup
     source ~/turtlebot3_ws/install/setup.bash
-    # Needed to run Gazebo
-    source /usr/share/gazebo/setup.sh
     # Tell your shell where to find all the Gazebo models, including the ones in the turtlebot3_gazebo package
     export GAZEBO_MODEL_PATH=~/.gazebo/models:$GAZEBO_MODEL_PATH
     export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/models
     export TURTLEBOT3_MODEL=waffle_pi
 
+    # Needed to run Gazebo
+    source /usr/share/gazebo/setup.sh
 fi
 ```
 
