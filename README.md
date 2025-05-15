@@ -1,9 +1,9 @@
 # TurtleBot3 Simulator in a portable Distrobox
 Script to install TurtleBot3 Simulation on ROS2 Humble
 
+## Set up the ROS/Turtlebot sourcing script
 Create a file in `~/.bashrc.d/ros2.sh` with the following contents. (You may need to create the ~/.bashrc.d directory: `mkdir ~/.bashrc.d/ros2.sh`
 
-## Set up the ROS/Turtlebot sourcing script
 ```bash
 # This will only run if you opened your shell in a container.
 # It will run in any container, but I usually use one of the official OSRF ROS containers.
