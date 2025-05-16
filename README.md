@@ -2,7 +2,7 @@
 Script to install TurtleBot3 Simulation on ROS2 Humble
 
 ## Set up the ROS/Turtlebot sourcing script
-Create a file in `~/.bashrc.d/ros2.sh` with the following contents. (we may need to create the ~/.bashrc.d directory: `mkdir ~/.bashrc.d/ros2.sh`
+Create a file in `~/.bashrc.d/ros2.sh` with the following contents. (we may need to create the ~/.bashrc.d directory: `mkdir ~/.bashrc.d`
 
 ```bash
 # This will only run if we opened our shell in a container.
