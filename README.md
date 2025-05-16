@@ -49,14 +49,14 @@ distrobox create my_humble_turtlebot_container -i osrf/ros:humble-desktop-full
 ```
 
 ### About Distrobox
-If the amazing `distrobox` is not installed, just install it with our package manager, e.g. `sudo apt install -y distrobox`. [Distrobox](https://github.com/89luca89/distrobox) wraps container runtimes and creation steps to easily and consistently create highly integrates containers (backed by Docker or Podman runtimes) so that we get all the benefits of walling off volatile parts of our system while maintaining the interactivity of a natively installed app. It's super useful! The `-i` flag lets we use any container image, but there are default ones available too, check the docs!
+If the amazing `distrobox` is not installed, just install it with our package manager, e.g. `sudo apt install -y distrobox`. [Distrobox](https://github.com/89luca89/distrobox) wraps container runtimes and creation steps to easily and consistently create highly integrated containers (backed by Docker or Podman runtimes) so that we get all the benefits of walling off volatile parts of our system while maintaining the interactivity of a natively installed app. It's super useful! The `-i` flag lets we use any container image, but there are default ones available too, check the docs!
 
 ## Enter Turtlebot Container
 ```bash
 distrobox enter my_humble_turtlebot_container
 ```
 
-## Download an Run the Installation Script
+## Download and Run the Installation Script
 ```bash
 curl -O https://raw.githubusercontent.com/nis057489/install_turtlebot_sim/refs/heads/main/setup_turtlebot3_humble.sh && chmod +x ./setup_turtlebot3_humble.sh && ./setup_turtlebot3_humble.sh
 ```
